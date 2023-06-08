@@ -1,0 +1,19 @@
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
+public class scan {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Input number: ");
+        int number  = scanner.nextInt();
+
+        System.out.println("Binary: "+Integer.toBinaryString(number));
+        System.out.println("Decimal: "+ number);
+        System.out.println("Hex: "+Integer.toHexString(number));
+        System.out.println("Octa: "+Integer.toOctalString(number));
+
+
+
+
+    }
+}
